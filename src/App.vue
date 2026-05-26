@@ -1,15 +1,12 @@
 <script setup>
-import FabButton from './components/FabButton.vue';
-import Header from './components/Header.vue';
-import Home from './pages/HomeView.vue';
-
+import Header from './components/Header.vue'
+import Home from './pages/HomeView.vue'
 </script>
 
 <template>
-  <div class>
+  <div class="">
     <Header />
     <Home />
-    <FabButton />
   </div>
 </template>
 
